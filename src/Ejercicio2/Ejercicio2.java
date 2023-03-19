@@ -16,7 +16,7 @@ public class Ejercicio2 {
 			T valor = datos.get(i);
 			if (valor.equals(dato)) {
 				this.salida = i;
-			}
+			}else this.salida = -1;
 		}
 
 		return this.salida;

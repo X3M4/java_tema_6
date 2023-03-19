@@ -12,7 +12,7 @@ public class TestEj2 {
 		al.add("Enrique");
 
 		Ejercicio2B ej = new Ejercicio2B();
-		int numero = ej.indiceDe(al, "Enrique");
+		int numero = ej.indiceDe(al, "Manolo");
 		System.out.println(numero);
 
 	}

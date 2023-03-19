@@ -1,4 +1,4 @@
-package ejercicio5;
+package ejercicio7;
 
 import java.util.Iterator;
 
@@ -27,9 +27,13 @@ public class TestArboles {
 		
 		System.out.println("Número de nodos:" + a1.getSize());		
 		
-		Iterator<String> i = a1.inorden();
-		while(i.hasNext()) {
-			System.out.println(i.next());
+		/*Iterator<String> io = a1.inorden();
+		while(io.hasNext()) {
+			System.out.println(io.next());
+		}*/
+		
+		for(String s: a1) {
+			System.out.println(s);
 		}
 			
 	}
