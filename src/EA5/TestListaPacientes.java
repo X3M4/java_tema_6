@@ -1,6 +1,6 @@
 package EA5;
 
-public class Ea5 {
+public class TestListaPacientes {
 
 	public static void main(String[] args) {
 		
