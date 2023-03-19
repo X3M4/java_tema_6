@@ -23,8 +23,8 @@ public class ListaPacientes {
 	}
 	//Elimina de la lista y devuelve 
 	//los datos del paciente eliminado
-	public Persona eliminaDatos(int i) {
-		Persona copy = arp.get(i);
+	public String eliminaDatos(int i) {
+		String copy = arp.get(i).getNombre();
 		arp.remove(i);
 		return copy;
 	}
