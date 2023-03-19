@@ -43,8 +43,9 @@ public class Persona implements Comparable<Persona>{
 	public int compareTo(Persona p) {
 		int mayor = 0;
 		if(this.altura > p.getAltura()) mayor = 1;
-		else if(this.altura < p.getAltura()) mayor = -1;
-		else mayor = 0;
+		else if(this.altura < p.getAltura()) mayor = 2;
+		else if(this.altura == p.getAltura() && this.dni == p.getDni()) mayor = 0;
+		else mayor = -1;
 		return mayor;
 		
 	}
