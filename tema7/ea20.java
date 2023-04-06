@@ -32,5 +32,4 @@ public class ea20 {
 			System.out.println(edad);
 		}
 	}
-
 }
